@@ -1,0 +1,28 @@
+{
+  "name": "cy",
+  "version": "1.0.0",
+  "description": "new cypress poc",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cyo": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrusu/cy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danrusu/cy/issues"
+  },
+  "homepage": "https://github.com/danrusu/cy#readme",
+  "dependencies": {
+    "cypress": "^15.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
