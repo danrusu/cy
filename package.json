@@ -1,0 +1,32 @@
+{
+  "name": "cy",
+  "version": "1.0.0",
+  "description": "new cypress poc",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p cypress/tsconfig.json --noEmit",
+    "format:check": "prettier --check .",
+    "format": "prettier . --write",
+    "test": "cypress run --browser chrome --e2e",
+    "cyo": "cypress open --browser chrome --e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrusu/cy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danrusu/cy/issues"
+  },
+  "homepage": "https://github.com/danrusu/cy#readme",
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  }
+}
