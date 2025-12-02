@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/danrusu/cy#readme",
   "dependencies": {
+    "cypress": "^15.7.0",
     "cypress-file-upload": "^5.0.8"
   },
   "devDependencies": {
