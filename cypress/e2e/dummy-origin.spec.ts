@@ -11,7 +11,8 @@ describe('Cross origin test', () => {
     cy.origin(URL2, () => {
       cy.get('body'); // all good
 
-      const { f } = Cypress.require('/cypress/support/dummyModule');
+      const { f } = Cypress.require('../support/dummyModule');
+      // const { f } = Cypress.require('/cypress/support/dummyModule');
       f();
     });
   });
